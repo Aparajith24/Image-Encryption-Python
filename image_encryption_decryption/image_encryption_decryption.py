@@ -61,7 +61,9 @@ def ArnoldCatDecryption(imageName, key):
     cv2.imwrite(imageName.split('_')[0] + "imageDec.png",img)
     return img
 
-image = "flower1"
+#change according to the filename
+
+image = "flower1" 
 ext = ".png"
 key = 20
 
